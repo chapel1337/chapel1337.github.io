@@ -8,6 +8,7 @@
 
 body {
     background-color: rgb(100, 100, 100);
+    overflow-x: hidden;
 }
 
 /* why is this blurring? whenever it's scrollable??? */
@@ -55,6 +56,22 @@ body {
     margin-top: 10%;
 }
 
+/*
+.list-row-orange {
+    color: darkorange;
+    list-style-type: square;
+
+    margin-top: 10%;
+}
+
+.a-orange, .a-orange:link {
+    transition-duration: 1s;
+
+    text-decoration: none;
+    color: orange;
+}
+*/
+
 a, a:link {
     transition-duration: 1s;
 
@@ -78,4 +95,10 @@ a:hover {
     position: absolute;
     left: 2.5%;
     bottom: 2.5%;
+}
+
+#moon {
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
