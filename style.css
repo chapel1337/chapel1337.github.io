@@ -1,0 +1,81 @@
+/* written by chapel1337 */
+/* made on 9/12/2022 */
+/* updated on 12/1/2022 */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(100, 100, 100);
+}
+
+/* why is this blurring? whenever it's scrollable??? */
+#main-container {
+    height: 95%;
+    width: 50%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: grey;
+    border-radius: 2.5%;
+    box-shadow: 2.5px 2.5px 3px;
+
+    overflow-y: scroll;
+}
+
+#main-container::-webkit-scrollbar {
+    display: none;
+}
+
+#profile {
+    position: absolute;
+    left: 2.5%;
+    top: 2.5%;
+
+    border-radius: 3.5%;
+}
+
+#title {
+    position: absolute;
+    left: 25%;
+    top: 7%;
+}
+
+#list {
+    position: absolute;
+    top: 25%;
+}
+
+.list-row {
+    list-style-type: square;
+    margin-top: 10%;
+}
+
+a, a:link {
+    transition-duration: 1s;
+
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+
+a:hover {
+    transition-duration: 1s;
+
+    color: black;
+}
+
+#back {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+#christmas {
+    position: absolute;
+    left: 2.5%;
+    bottom: 2.5%;
+}
