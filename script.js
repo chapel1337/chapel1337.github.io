@@ -18,3 +18,22 @@ else
 {
     document.getElementById("christmas").style.opacity = "0%";
 }
+
+if (new Date().getMonth() == 9)
+{
+    document.getElementById("moon").style.opacity = "100%";
+
+    document.body.style.backgroundImage = "url(media/night.jpg)";
+    document.getElementById("main-container").style.backgroundColor = "rgb(30, 30, 30)";
+
+    /*
+    document.getElementById("list").classList.remove("list-row");
+    document.getElementById("list").classList.add("list-row-orange", "list-row-orange::before");
+
+    console.log( document.getElementById("list").classList);
+    */
+}
+else
+{
+    document.getElementById("moon").style.opacity = "0%";
+}
