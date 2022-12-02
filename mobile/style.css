@@ -1,5 +1,6 @@
 /* written by chapel1337 */
 /* made on 9/18/2022 */
+/* updated on 12/1/2022 */
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,6 +8,7 @@
 
 body {
     background-color: rgb(100, 100, 100);
+    overflow-x: hidden;
 }
 
 #main-container {
@@ -55,6 +57,23 @@ body {
     list-style-type: square;
 }
 
+/*
+.list-row-orange {
+    color: darkorange;
+    list-style-type: square;
+
+    margin-top: 4.65%;
+    margin-bottom: 4.65%;
+}
+
+.a-orange, .a-orange:link {
+    transition-duration: 1s;
+
+    text-decoration: none;
+    color: orange;
+}
+*/
+
 a, a:link {
     text-decoration: none;
     color: rgb(45, 45, 45);
@@ -70,4 +89,10 @@ a, a:link {
     position: absolute;
     left: 2.5%;
     bottom: 2.5%;
+}
+
+#moon {
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
