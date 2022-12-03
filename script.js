@@ -17,7 +17,7 @@ if (new Date().getMonth() == 11) // 11
     document.getElementById("christmas").style.backgroundSize = "cover";
 }
 
-if (new Date().getMonth() == 10) // 9
+if (new Date().getMonth() == 9) // 9
 {
     document.getElementById("moon").style.background = "url(\"media/moon.png\")";
     document.getElementById("moon").style.backgroundRepeat = "no-repeat";
